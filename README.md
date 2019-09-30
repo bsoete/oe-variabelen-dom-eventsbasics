@@ -20,6 +20,5 @@ Via de input in gekozenId wordt afhankelijk van de zichtbaarheid van het element
 * Programmeer dezelfde functionaliteiten voor btnVerbergElementMetSelector via de input in txtCssSelector. 
 * Hier wordt het te verbergen/tonen element via de css-selector geselecteerd.
 > ### Info
->  * De tekst in de button staat op 2 lijnen.
 >  * Denk na over de declaratie, invulling en scope van de variabelen
 >  * Waar kun je eventueel constants gebruiken?
