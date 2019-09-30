@@ -1,5 +1,5 @@
-oe07-variabelen_dom-start
-# Herhaling variabelen en DOM-elementen
+oe-variabelen-dom-eventbasics
+# Herhaling variabelen/DOM-elementen en Events Basics
 ## Werking
 ### Opstarten
 * In txtId wordt de tekst 'txtNaam' ingevuld
