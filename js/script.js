@@ -1,11 +1,11 @@
 "use strict";
-window.addEventListener('load',Initieer);
+window.addEventListener('load', Initieer);
 
 // Globale Variabelen
 
 
 // StartUP
-function Initieer(){
+function Initieer() {
   // Lokale variabelen
 
   // Inlezen DOM-elementen
@@ -16,11 +16,11 @@ function Initieer(){
 
 }
 
-function ToonVerbergElementViaId(){
+function ToonVerbergElementViaId() {
 
 }
 
-function ToonVerbergElementViaSelector(){
+function ToonVerbergElementViaSelector() {
 
 }
 
