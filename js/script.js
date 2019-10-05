@@ -23,11 +23,23 @@ function Initieer() {
 }
 
 function ToonVerbergElementViaId() {
-  let Naam, gekozenId;
+  let Naam, gekozenId, gekozenElement;
   Naam = txtNaam.value;
   gekozenId = txtId.value;
 
-  divFeedback.innerHTML += `${Naam} heeft id ${gekozenId} gekozen`;
+  gekozenElement = document.getElementById(gekozenId);
+    
+  if(gekozenElement.style.display == ''){
+    gekozenElement.style.display = 'none';
+  } 
+  else if(gekozenElement.style.display == 'none'){
+    gekozenElement.style.display = 'inline';
+  }
+  else if(gekozenElement.style.display == 'inline'){
+    gekozenElement.style.display = 'none';
+  }
+  
+  divFeedback.innerHTML += `${Naam} heeft id ${gekozenId} gewijzigd <br/>`;
 }
 
 function ToonVerbergElementViaSelector() {
